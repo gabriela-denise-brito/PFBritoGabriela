@@ -1,0 +1,45 @@
+
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video{
+   margin-left: 10%;
+   margin-right: 10%;
+   width: 80%;
+}
+.image-home{
+    width: 250px;
+    height: 120px;
+    margin: 80px;
+}   
+.parrafo2-home{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;   
+    font-family: "Roboto", sans-serif;
+}
+.imges-home{
+    display: flex;
+}
+@media (max-width: 768px) {
+    .title{
+        text-align: center;
+    }
+    .video{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .main-photos{
+        display:flex;
+        flex-direction: column;
+
+    }}
+@media (max-width:1023px) and (min-width:768px){
+.video{ margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}}
+

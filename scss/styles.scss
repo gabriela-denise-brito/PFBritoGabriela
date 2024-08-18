@@ -1,0 +1,46 @@
+@import "Utilidades/_mixin";
+@import "utilidades/_variables";
+
+
+//nesting 
+header {
+    nav {
+      margin-left: 15px;
+        ul {
+        list-style: none;
+          li {
+          a {
+            color: $color-letra;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  
+  .bg-dark {
+    background-color: $color-fondo !important;
+  }
+  
+  .navbar-dark {
+    background-color: $color-fondo !important;
+  }
+  
+  .navbar-nav {
+    .nav-item {
+        .nav-link:hover {
+            color: $color-letra;
+            transform: scale(1.1); 
+            transition: transform 0.3s ease-in-out; 
+      }
+    }
+  }
+
+  @import "./base/_reset";
+  @import "./base/_home";
+  @import "./base/_generales";
+  @import "./base/_entrenamiento";
+  @import "./base/_contacto";
+  @import "./base/_nosotros";
+  @import "./base/_sedes";
+  @import "./base/_staff";

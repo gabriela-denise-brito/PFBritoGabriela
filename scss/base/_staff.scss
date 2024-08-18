@@ -1,0 +1,33 @@
+.h2-staff{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.parrafo-staff{
+    margin: 2%;
+    font-family: "Roboto", sans-serif;
+}
+.form-staff{
+    margin-bottom: 50px;
+}
+.footer-staff{
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.imput{
+    color: whitesmoke;
+}
+@media (max-width: 768px){
+    .h2-staff{
+        display: none;
+    }
+    .form-legend{
+        font-weight: 250;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .h2-staff{
+        font-size: 1.5rem;
+    }
+}
+
+

@@ -1,0 +1,141 @@
+.nosotros-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr); 
+  }
+  
+  h2-sobre-nosotros {
+    margin: 3%;
+    text-align: center;
+  }
+  
+  h3-sobre-nosotros { 
+    font-size: 1.5rem;
+    margin: 2%;
+  }
+  
+  parrafo-sobre-nosotros {
+    margin: 2%;
+  }
+  
+  .image-sobre-nosotros {
+    @include image-sn
+  }
+  
+  @media (max-width: 768px) {
+    h2-sobre-nosotros {  
+      font-size: 1rem;
+      margin: 4%;
+    }
+  }
+  
+  h3-sobre-nosotros {
+    font-size: 1.2rem;
+  }
+  
+  parrafo-sobre-nosotros {
+    font-size: 1rem;
+  }
+  
+  .image-sobre-nosotros {
+    display: block;
+    margin: 0 auto; 
+    width: 80%;
+    height: auto; 
+  }
+  
+  .nosotros-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .nosotros-img {
+    display: block;
+  }
+  
+  .nosotros-img:nth-child(5),
+  .nosotros-img:nth-child(6) {
+    display: none;
+  }
+  
+  .link-instagram {
+    @include boton;
+     }
+
+  .nosotros-img img {
+    width: 60%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    h2-sobre-nosotros {
+      font-size: 1.5rem;
+    }
+  
+    .nosotros-img-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 10px; 
+      justify-items: center; 
+    }
+  
+    .nosotros-img {
+      display: block; 
+    }
+  
+    .nosotros-img:nth-child(5),
+    .nosotros-img:nth-child(6) {
+      display: block; 
+    }
+  
+    .nosotros-img img {
+      width: 100%; 
+      height: auto; 
+      display: block;
+      margin: 0 auto; 
+    }
+  
+    .image-sobre-nosotros {
+      display: block;
+      margin: 0 auto; 
+      width: 50%; 
+      height: auto; 
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .nosotros-img-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px; 
+      justify-items: center;
+    }
+  
+    .nosotros-img:nth-child(5),
+    .nosotros-img:nth-child(6) {
+      display: grid;
+    }
+  
+    .nosotros-img img {
+      width: 100%; 
+      height: auto; 
+      display: block;
+      margin: 0 auto; 
+    }
+  
+    .image-sobre-nosotros {
+      display: block;
+      margin: 0 auto; 
+      width: 50%; 
+      height: auto;
+    }
+  }
+  

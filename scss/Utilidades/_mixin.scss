@@ -1,0 +1,38 @@
+//mixin
+
+@mixin main{
+    margin-top: 10px;
+    color: $color-letra;
+    font-family: "Roboto", sans-serif;
+    background-color: $color-fondo;
+}
+
+@mixin boton{
+        display: inline-block;           
+        padding: 10px 20px;              
+        background-color: $color-letra;       
+        color: $color-fondo;                  
+        text-align: center;              
+        text-decoration: none;           
+        border-radius: 5px;              
+        font-size: 16px;                            
+        transition: trabsform 0.10s ease-in-out;
+}
+
+@mixin fotos-sedes{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto auto; 
+    gap: 1px; 
+    padding: 20px; 
+    width: 500px;
+    height: 500px;
+}
+
+@mixin image-sn{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    margin-left: 50rem;
+    margin-right: 23rem;
+}

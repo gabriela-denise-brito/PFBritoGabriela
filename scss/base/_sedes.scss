@@ -1,0 +1,29 @@
+.h2-sedes{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.parrafo-sedes{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.image-sede{
+    @include fotos-sedes
+   
+}
+.sedes-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 1025px) {
+    .sedes-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(12, auto); 
+    }
+    @media (max-width: 768px){
+        .h2-sedes{
+            font-size: 1rem;
+        }
+    }
+}
