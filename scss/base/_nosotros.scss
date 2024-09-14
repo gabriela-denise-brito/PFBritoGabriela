@@ -4,17 +4,17 @@
     grid-template-rows: repeat(1, 1fr); 
   }
   
-  h2-sobre-nosotros {
+  .h2-sobre-nosotros {
     margin: 3%;
     text-align: center;
   }
   
-  h3-sobre-nosotros { 
+  .h3-sobre-nosotros { 
     font-size: 1.5rem;
     margin: 2%;
   }
   
-  parrafo-sobre-nosotros {
+  .parrafo-sobre-nosotros {
     margin: 2%;
   }
   
@@ -23,17 +23,17 @@
   }
   
   @media (max-width: 768px) {
-    h2-sobre-nosotros {  
+    .h2-sobre-nosotros {  
       font-size: 1rem;
       margin: 4%;
     }
   }
   
-  h3-sobre-nosotros {
+  .h3-sobre-nosotros {
     font-size: 1.2rem;
   }
   
-  parrafo-sobre-nosotros {
+  .parrafo-sobre-nosotros {
     font-size: 1rem;
   }
   
@@ -76,7 +76,7 @@
       font-size: 2rem;
     }
   
-    h2-sobre-nosotros {
+    .h2-sobre-nosotros {
       font-size: 1.5rem;
     }
   

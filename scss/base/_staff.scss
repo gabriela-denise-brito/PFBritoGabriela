@@ -1,14 +1,24 @@
 .h2-staff{
     margin-left: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .parrafo-staff{
     margin: 2%;
     font-family: "Roboto", sans-serif;
 }
-.form-staff{
-    margin-bottom: 50px;
-}
+
+  .form-legend-staff{
+    text-align: center;
+  } 
+.staff-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 .footer-staff{
     margin-top: 50px;
     font-family: "Roboto", sans-serif;

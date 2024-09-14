@@ -14,6 +14,19 @@
 .option{
     color: $color-letra
 }
+
+.contact-form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    }
+    .legend{
+      display: inline;
+      text-align: center;
+    } 
 @media (max-width: 768px){
     .main-google-maps{
         display: none;

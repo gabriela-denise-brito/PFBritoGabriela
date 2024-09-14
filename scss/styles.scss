@@ -36,11 +36,11 @@ header {
     }
   }
 
-  @import "./base/_reset";
-  @import "./base/_home";
-  @import "./base/_generales";
-  @import "./base/_entrenamiento";
-  @import "./base/_contacto";
-  @import "./base/_nosotros";
-  @import "./base/_sedes";
-  @import "./base/_staff";
+  @import "./base/_reset.scss";
+  @import "./base/_home.scss";
+  @import "./base/_generales.scss";
+  @import "./base/_entrenamiento.scss";
+  @import "./base/_contacto.scss";
+  @import "./base/_nosotros.scss";
+  @import "./base/_sedes.scss";
+  @import "./base/_staff.scss";
